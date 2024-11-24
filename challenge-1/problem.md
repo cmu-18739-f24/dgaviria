@@ -3,14 +3,18 @@
 - Namespace: picoctf/18739f24
 - ID: nullstring1
 - Type: custom
-- Category: General Skills
+- Category: Binary Exploitation
 - Points: 1
-- Templatable: no
+- Templatable: yes
 - MaxUsers: 1
 
 ## Description
 
 This problem is suppose to highlight the vulnerabilities in failing to properly null-terminate strings.
+
+## Details
+
+Connect to the program with `nc {{server}} {{port}}`
 
 
 ## Solution Overview
